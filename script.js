@@ -18,7 +18,7 @@ fetch - ferramenta para se comunicar com algo fora do codigo
 [x] Colocar na Tela o que ele respondeu    
 
 */
-let webhook = "https://lucasaraujo6878.app.n8n.cloud/webhook/Chat-IA"
+let webhook = "http://localhost:5678/webhook/animação"
 
 // funcao assincrona
 async function cliqueiNoBotao() {
@@ -67,4 +67,5 @@ async function cliqueiNoBotao() {
 
     // Limpar o input
     document.querySelector(".input-animacao").value = ""
+
 }
